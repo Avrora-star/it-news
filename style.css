@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -106,6 +106,52 @@
     bottom: 40px ;
     right:40px;
     
+}
+
+.articles-container {
+    width:1000px;
+    padding:30px;
+    margin:auto;
+    box-sizing:border-box;
+}
+
+.article {
+    font-family: "Roboto", sans-serif;
+    border:2px solid black;
+}
+
+.article-title {
+    font-size:30px;
+    background-color:black;
+    color:white;
+    padding:10px;
+    text-align:center;
+    position:sticky;
+    top: 0;
+    z-index:3;
+}
+
+.article-category {
+    background-color:tomato;
+    text-align:center;
+    font-size:25px;
+    padding:10px;
+    text-decoration:underline;
+}
+
+.article-img {
+    width:100%;
+    filter:opacity(0.9) brightness(1.1);
+    position:sticky;
+    top: 0;
+    z-index:1;
+}
+
+.article-text {
+    padding:40px;
+    background-color:white;
+    position:relative;
+    z-index:2;
 }
 
 
